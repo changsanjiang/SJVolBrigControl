@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - SJAttributesFactory (1.1.6)
+  - SJBorderLineView (0.0.5)
+  - SJUIFactory (0.0.6):
+    - SJAttributesFactory
+    - SJUIFactory/Category (= 0.0.6)
+  - SJUIFactory/Category (0.0.6):
+    - SJAttributesFactory
+
+DEPENDENCIES:
+  - Masonry
+  - SJBorderLineView
+  - SJUIFactory
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SJAttributesFactory: f792ee911d85df1feec311f2fbed72e87222003d
+  SJBorderLineView: 5f7bf13a55a30ad4d19c5f085ad0567304702e61
+  SJUIFactory: e1dafcff0be8828f843b21c964f78b8637d7e425
+
+PODFILE CHECKSUM: 9205d05d7432897f1363b4fc6658ede0855bb4ba
+
+COCOAPODS: 1.4.0.beta.2
