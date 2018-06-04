@@ -21,6 +21,7 @@
 		77A4390B1FDD7A3C008BD092 /* SJVideoPlayerTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A4390A1FDD7A3C008BD092 /* SJVideoPlayerTipsView.m */; };
 		77A439201FDD7DC1008BD092 /* SJVolBrigResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77A4391D1FDD7DC0008BD092 /* SJVolBrigResource.bundle */; };
 		77A439241FDD7DEB008BD092 /* SJVolBrigResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A439231FDD7DEB008BD092 /* SJVolBrigResource.m */; };
+		A663309D20C5197300CB4A02 /* SJBorderLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A663309B20C5197300CB4A02 /* SJBorderLineView.m */; };
 		CF08A3D285AA94B798037A6D /* libPods-SJVolBrigControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DACC610C06DF8E6BC244D3AB /* libPods-SJVolBrigControl.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		77A4391D1FDD7DC0008BD092 /* SJVolBrigResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SJVolBrigResource.bundle; sourceTree = "<group>"; };
 		77A439221FDD7DEB008BD092 /* SJVolBrigResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJVolBrigResource.h; sourceTree = "<group>"; };
 		77A439231FDD7DEB008BD092 /* SJVolBrigResource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJVolBrigResource.m; sourceTree = "<group>"; };
+		A663309B20C5197300CB4A02 /* SJBorderLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBorderLineView.m; sourceTree = "<group>"; };
+		A663309C20C5197300CB4A02 /* SJBorderLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBorderLineView.h; sourceTree = "<group>"; };
 		C299A61BC3AF0E90F08C880B /* Pods-SJVolBrigControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJVolBrigControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJVolBrigControl/Pods-SJVolBrigControl.release.xcconfig"; sourceTree = "<group>"; };
 		DACC610C06DF8E6BC244D3AB /* libPods-SJVolBrigControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SJVolBrigControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,6 +117,8 @@
 				7754FF751FF5267700D5B167 /* SJVolBrigControl.m */,
 				77A439091FDD7A3C008BD092 /* SJVideoPlayerTipsView.h */,
 				77A4390A1FDD7A3C008BD092 /* SJVideoPlayerTipsView.m */,
+				A663309C20C5197300CB4A02 /* SJBorderLineView.h */,
+				A663309B20C5197300CB4A02 /* SJBorderLineView.m */,
 			);
 			name = SJVolBrigControl;
 			path = ../../SJVolBrigControl;
@@ -282,6 +287,7 @@
 			files = (
 				7754FF761FF5267700D5B167 /* SJVolBrigControl.m in Sources */,
 				77A438F61FDD79D3008BD092 /* ViewController.m in Sources */,
+				A663309D20C5197300CB4A02 /* SJBorderLineView.m in Sources */,
 				77A439011FDD79D3008BD092 /* main.m in Sources */,
 				77A4390B1FDD7A3C008BD092 /* SJVideoPlayerTipsView.m in Sources */,
 				77A438F31FDD79D3008BD092 /* AppDelegate.m in Sources */,

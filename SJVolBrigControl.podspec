@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SJVolBrigControl"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "volume brigness control."
 
   # This description is used to generate tags and improve search results.
@@ -123,6 +123,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "Masonry"
-  s.dependency "SJBorderLineView"
 
 end
